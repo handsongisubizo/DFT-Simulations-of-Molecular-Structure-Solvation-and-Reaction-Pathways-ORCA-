@@ -22,7 +22,7 @@ All computations were post-processed using Python in Google Colab, with structur
 
 ---
 
-###  Project Structure (Suggested Folder Layout)
+###  Project Structure 
 
 ```
 orca-dft-analysis/
