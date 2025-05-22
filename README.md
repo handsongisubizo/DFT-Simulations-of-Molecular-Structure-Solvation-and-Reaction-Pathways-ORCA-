@@ -24,3 +24,16 @@ All computations were post-processed using Python in Google Colab, with structur
 
 ###  Project Structure (Suggested Folder Layout)
 
+```
+orca-dft-analysis/
+├── 01_butane_conformers/         # Dihedral scan of butane conformers
+├── 02_water_cluster/             # (H₂O)₁₅ geometry and IR spectrum
+├── 03_thermo_water/              # Thermodynamic properties of water cluster
+├── 04_hbond_dimer/               # Hydrogen bond energy scan
+├── 05_oh_bond_force/             # O–H bond force constant calculation
+├── 06_nacl_solvation/            # NaCl + water solvation shell analysis
+├── 07_neb_ts_methanol/           # NEB-TS for methanol + HCl → CH₃Cl + H₂O
+├── report/                       # Final PDF report and notes
+│   └── edit_collect-1.pdf
+└── README.md
+```
