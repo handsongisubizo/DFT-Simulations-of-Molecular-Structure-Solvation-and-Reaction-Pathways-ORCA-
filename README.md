@@ -34,6 +34,6 @@ orca-dft-analysis/
 ├── 06_nacl_solvation/            # NaCl + water solvation shell analysis
 ├── 07_neb_ts_methanol/           # NEB-TS for methanol + HCl → CH₃Cl + H₂O
 ├── report/                       # Final PDF report and notes
-│   └── edit_collect-1.pdf
+│   └── orca_dft_project_report.pdf
 └── README.md
 ```
