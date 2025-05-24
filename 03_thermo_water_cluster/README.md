@@ -50,6 +50,7 @@ This folder contains thermodynamic calculations of a 15-water molecule cluster (
 ## Summary
 
 This analysis confirms the expected thermodynamic behavior of a water cluster in the gas phase. The temperature dependence of H, U, and G reflects entropic stabilization at higher temperatures. 
+
 ---
 
 Created by [Handson Gisubizo](https://github.com/handsongisubizo)  
