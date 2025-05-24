@@ -37,13 +37,12 @@ This folder contains thermodynamic calculations of a 15-water molecule cluster (
 
 ### Plots
 
-#### Energy Components
+#### 
+!(thermo_properties_15h2o.png)
 
-![Thermodynamic Properties](thermo_properties_15h2o.png)
+#### 
 
-#### Gibbs Free Energy
-
-![Gibbs Energy Plot](gibbs_energy_15h2o.png)
+!(gibbs_energy_15h2o.png)
 
 ---
 
