@@ -78,9 +78,8 @@ The histograms below summarize the O–H bond lengths and H–O–H angles acros
 - The final geometry is physically meaningful and chemically stable.
 - Bond lengths and angles align well with experimental data for hydrogen-bonded water clusters.
 - Suitable for further studies, including:
-  - IR spectrum prediction and peak analysis
-  - Thermodynamic property extraction
-  - Comparison to experimental spectra
+  - Thermodynamic property 
+  
 
 ---
 
