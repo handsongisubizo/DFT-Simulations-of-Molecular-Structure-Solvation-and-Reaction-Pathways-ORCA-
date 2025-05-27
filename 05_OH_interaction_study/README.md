@@ -62,4 +62,3 @@ Full energy analysis and plotting are implemented in a Jupyter notebook availabl
 
 Created by [Handson Gisubizo](https://github.com/handsongisubizo)  
 Contact: hgisubi1@jhu.edu
-
