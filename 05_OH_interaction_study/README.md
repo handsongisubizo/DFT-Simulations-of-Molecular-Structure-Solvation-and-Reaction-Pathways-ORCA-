@@ -54,7 +54,7 @@ Full energy analysis and plotting are implemented in a Jupyter notebook availabl
  README.md                  
 ```
 
- **Access the Colab notebook directly**: [Ope analysis.ipynb](./OH_interaction_profile_data_analysis.ipynb)
+ **Access the Colab notebook directly**: [Open analysis.ipynb](./OH_interaction_profile_data_analysis.ipynb)
 
 >  **Note**: The full dataset includes 3000+ ORCA `.inp`, `.out`, `.gbw`, and density files for small distance increments (0.01 Å steps). To keep the repository concise, only sample files and summarized results are included. Full data available upon request.
 
