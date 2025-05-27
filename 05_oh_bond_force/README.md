@@ -49,16 +49,17 @@ Full energy analysis and plotting are implemented in a Jupyter notebook availabl
 ##  Repository Structure
 
 ```
- sample_orca_files/         # Representative ORCA input/output files
-    ├── H_scan_0.96.inp       # Input file at equilibrium distance
-    └── H_scan_0.96.out       # Output file with SCF results
+ sample_orca_files/         
+    ├── H_scan_0.96.inp      
+    └── H_scan_0.96.out       
 
- data_analysis/             # Data and Jupyter notebook
-    ├── analysis.ipynb        # Python notebook for plotting and energy 
+ data_analysis/             
+    ├── analysis.ipynb       
 
- OH_interaction_profile.png # Energy curve
- hbond_distance_examples.png # Summary image of 3 key distances
- README.md                  # Project documentation
+ optimized_dimer.jpg
+ OH_interaction_profile.png 
+ hbond_distance_examples.png 
+ README.md                  
 ```
 
  **Access the Colab notebook directly**: [Open OH_interaction_profile_data_analysis  analysis.ipynb](./OH_interaction_profile_data_analysis.ipynb)
