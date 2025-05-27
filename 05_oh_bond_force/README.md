@@ -83,7 +83,8 @@ This comparison highlights how empirical models trade physical accuracy for comp
 
  optimized_dimer.jpg
  OH_interaction_profile.png 
- hbond_distance_examples.png 
+ hbond_distance_examples.png
+ 05_oh_bond_force/OH_harmonic_fit.png
  README.md                  
 ```
 
