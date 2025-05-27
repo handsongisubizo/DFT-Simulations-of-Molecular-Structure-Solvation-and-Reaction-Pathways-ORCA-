@@ -9,7 +9,7 @@ This project analyzes the **hydrogen bond interaction** between two water molecu
 
 The figure shows the DFT-optimized geometry of a water dimer. A hydrogen bond forms between the donor hydrogen of one molecule and the acceptor oxygen of the second molecule, indicated by the dotted line. This configuration represents the equilibrium structure in the gas phase.
 
-![Optimized Two water molecules](./optimized_dimer.png)
+![Optimized Two water molecules](./optimized_dimer.jpg)
 
 ---
 ##  Methodology
