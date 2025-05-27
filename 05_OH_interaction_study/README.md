@@ -45,9 +45,9 @@ To assess the stiffness of the O–H bond, a harmonic analysis was performed usi
 
 Near the equilibrium distance, the potential energy curve follows a harmonic form:
 
-\[
+$$
 E = \frac{1}{2}k(x - x_0)^2
-\]
+$$
 
 Fitting this curve yielded an equilibrium bond length \( x_0 = 0.966 \) Å and a force constant of **740.8 N/m**.
 
