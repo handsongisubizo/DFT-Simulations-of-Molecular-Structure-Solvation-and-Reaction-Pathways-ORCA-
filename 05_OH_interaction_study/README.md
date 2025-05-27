@@ -50,7 +50,7 @@ Full energy analysis and plotting are implemented in a Jupyter notebook availabl
     ├── analysis.ipynb        
 
  OH_interaction_profile.png 
- hbond_distance_examples.png 
+ hbond_distance.png 
  README.md                  
 ```
 
