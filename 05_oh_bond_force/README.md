@@ -5,15 +5,11 @@ This project analyzes the **hydrogen bond interaction** between two water molecu
 
 ---
 
-##  Hydrogen Bond Distance Comparison
+##  Optimized Structure of a Water Dimer with a Hydrogen Bond
 
-This figure illustrates how the O–H interaction changes with distance:
+The figure shows the DFT-optimized geometry of a water dimer. A hydrogen bond forms between the donor hydrogen of one molecule and the acceptor oxygen of the second molecule, indicated by the dotted line. This configuration represents the equilibrium structure in the gas phase.
 
-![Hydrogen Bond Distances](./hbond_distance.png)
-
-- **Attraction**: O–H = 0.40 Å → Strong repulsion
-- **Equilibrium**: O–H = 0.96 Å → Energy minimum
-- **No Interaction**: O–H = 5.00 Å → Vanishing interaction
+![Optimized Two water molecules](./optimized_dimer.png)
 
 ---
 ##  Methodology
