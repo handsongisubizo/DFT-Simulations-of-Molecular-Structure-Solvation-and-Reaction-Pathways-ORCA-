@@ -39,6 +39,31 @@ Full energy analysis and plotting are implemented in a Jupyter notebook availabl
 
 ---
 
+## 🔩 O–H Bond Force Constant Analysis
+
+To assess the stiffness of the O–H bond, a harmonic analysis was performed using a single, gas-phase water molecule. The O–H bond was stretched and compressed symmetrically in 0.01 Å increments around the equilibrium geometry, with all other atoms fixed. For each geometry, DFT single-point energy calculations were conducted using ORCA.
+
+Near the equilibrium distance, the potential energy curve follows a harmonic form:
+
+\[
+E = \frac{1}{2}k(x - x_0)^2
+\]
+
+Fitting this curve yielded an equilibrium bond length \( x_0 = 0.966 \) Å and a force constant of **740.8 N/m**.
+
+![Harmonic Fit to O–H Bond Potential](./OH_harmonic_fit_curve.png)
+
+The extracted force constant was compared against experimental spectroscopy and widely used empirical water models including TIP3P, SPC/E, and TIP4P. DFT produced the highest stiffness value, as expected from its quantum-level description.
+
+![Comparison of O–H Force Constants in Water Models](./OH_force_constants_barplot.png)
+
+This comparison highlights how empirical models trade physical accuracy for computational simplicity. While DFT reflects quantum-level precision, classical models remain useful for large-scale simulations.
+
+---
+
+
+
+
 ##  Repository Structure
 
 ```
