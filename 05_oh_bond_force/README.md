@@ -5,6 +5,17 @@ This project analyzes the **hydrogen bond interaction** between two water molecu
 
 ---
 
+##  Hydrogen Bond Distance Comparison
+
+This figure illustrates how the O–H interaction changes with distance:
+
+![Hydrogen Bond Distances](./hbond_distance.png)
+
+- **Attraction**: O–H = 0.40 Å → Strong repulsion
+- **Equilibrium**: O–H = 0.96 Å → Energy minimum
+- **No Interaction**: O–H = 5.00 Å → Vanishing interaction
+
+---
 ##  Methodology
 
 - **System**: H₂O dimer (1 donor, 1 acceptor)
