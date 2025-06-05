@@ -36,6 +36,9 @@ This figure illustrates how the non-bonded O···O interaction between two wate
 - **Equilibrium**: O···O = 2.901 Å → Minimum energy point (−152.86248 Eh)  
 - **No Interaction**: O···O ≥ 5.00 Å → Long-range distance, interaction vanishes
 
+If you'd like to **visualize or download** the data used in this analysis, get the CSV file here: ![o_o_energy_data.csv](./o_o_energy_data.csv).
+
+
 ---
 
 ## Energy Profile
