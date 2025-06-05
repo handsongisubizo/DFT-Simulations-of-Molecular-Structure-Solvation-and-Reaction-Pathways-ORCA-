@@ -48,23 +48,6 @@ The interaction energy curve shows a minimum at 2.901 Å, which corresponds to t
 
 Full analysis and plots are implemented in a Jupyter notebook (`oo_energy_analysis.ipynb`).
 
----
-
-## Repository Structure
-
-sample_orca_files/
-    ├── OO_scan_2.901.inp
-    └── OO_scan_2.901.out
-
-data_analysis/
-    ├── oo_energy_analysis.ipynb
-  
-optimized_dimer.jpg
-OO_interaction_energy_curve.png
-oo_distance_plot.png
-README.txt
-
----
 
 **Google Colab notebook**: [Open oo_energy_analysis.ipynb](./oo_energy_analysis.ipynb)
 
