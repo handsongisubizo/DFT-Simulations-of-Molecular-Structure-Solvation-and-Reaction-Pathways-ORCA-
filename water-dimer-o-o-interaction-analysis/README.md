@@ -45,7 +45,7 @@ If you'd like to **visualize or download** the data used in this analysis, get t
 
 The interaction energy curve shows a minimum at 2.901 Å, which corresponds to the most stable O···O distance in the hydrogen-bonded water dimer.
 - At shorter distances, strong repulsion arises due to electron cloud overlap.
-- At longer distances, the attractive interaction fades, and the energy approaches zero.
+- At longer distances, the attractive interaction fades.
 
 ![O···O Interaction Profile](./OO_interaction_energy_curve.png)
 
