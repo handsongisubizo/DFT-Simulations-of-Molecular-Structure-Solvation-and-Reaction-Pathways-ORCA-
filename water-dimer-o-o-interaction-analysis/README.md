@@ -17,7 +17,7 @@ The image below shows the optimized water dimer used in this study:
 - **Software**: ORCA for quantum calculations, Python (Colab) for analysis
 - **Procedure**:
   - Start from an optimized hydrogen-bonded water dimer geometry.
-  - Fix atomic positions and vary the **O···O distance** from 2.00 Å to 5.00 Å in 0.01 Å steps.
+  - Fix atomic positions and vary the **O···O distance** from 2.00 Å to 5.00 Å in 0.001 Å steps.
   - Perform single-point energy calculations for each configuration.
   - Analyze and visualize the interaction energy profile using Python.
 
