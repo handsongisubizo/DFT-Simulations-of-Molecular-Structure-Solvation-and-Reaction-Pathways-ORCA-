@@ -3,6 +3,14 @@
 
 This project analyzes the **hydrogen bond interaction** between two water molecules using **Density Functional Theory (DFT)** in **ORCA**. The interaction energy was computed as a function of the donor H and acceptor O atom distance.
 
+## Optimized Structure
+
+The image below shows the optimized water dimer used in this study:
+
+ `optimized_dimer.png`
+
+![Optimized Dimer](optimized_dimer.png)
+
 ---
 
 ##  Methodology
