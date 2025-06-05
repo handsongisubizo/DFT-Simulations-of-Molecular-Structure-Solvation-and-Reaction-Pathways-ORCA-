@@ -29,6 +29,8 @@ This figure illustrates how the non-bonded O···O interaction between two wate
 
 ![O···O Interaction Distances](./oo_distance.png)
 
+---
+
 **Interaction Behavior**:
 - **Repulsion**: O···O = 2.00 Å → Strong electronic repulsion due to orbital overlap  
 - **Equilibrium**: O···O = 2.901 Å → Minimum energy point (−152.86248 Eh)  
