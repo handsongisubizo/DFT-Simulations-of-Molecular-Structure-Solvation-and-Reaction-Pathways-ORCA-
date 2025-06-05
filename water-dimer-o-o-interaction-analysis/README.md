@@ -2,6 +2,13 @@
 
 This project analyzes the **non-bonded O···O interaction** between two water molecules using **Density Functional Theory (DFT)** in **ORCA**. The interaction energy was computed as a function of the distance between the **oxygen atoms** of the donor and acceptor water molecules.
 
+
+## Optimized Structure
+
+The image below shows the optimized water dimer used in this study:
+
+![Optimized Dimer](optimized_dimer.jpg)
+
 ---
 
 ## Methodology
