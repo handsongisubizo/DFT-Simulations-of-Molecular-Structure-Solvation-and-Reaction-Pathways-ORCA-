@@ -44,7 +44,7 @@ The interaction energy curve shows a minimum at 2.901 Å, which corresponds to t
 - At shorter distances, strong repulsion arises due to electron cloud overlap.
 - At longer distances, the attractive interaction fades, and the energy approaches zero.
 
-[O···O Interaction Profile](./OO_interaction_energy_curve.png)
+![O···O Interaction Profile](./OO_interaction_energy_curve.png)
 
 Full analysis and plots are implemented in a Jupyter notebook (`oo_energy_analysis.ipynb`).
 
