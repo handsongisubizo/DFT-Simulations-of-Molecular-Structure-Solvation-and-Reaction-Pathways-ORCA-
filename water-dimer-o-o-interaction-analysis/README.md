@@ -23,48 +23,42 @@ The image below shows the optimized water dimer used in this study:
 
 ---
 
-## O···O Distance Interaction Behavior
+## O···O Interaction Distance Profile
 
-This figure illustrates how the total interaction energy evolves with O···O distance:
+This figure illustrates how the non-bonded O···O interaction between two water molecules changes with distance:
 
-- Short distances (≤ 2.4 Å): Strong repulsion due to electron cloud overlap
-- Intermediate distances (~2.9–3.1 Å): Attractive hydrogen-bonding interactions dominate
-- Long distances (≥ 4.5 Å): Interactions vanish; water molecules behave independently
+![O···O Interaction Distances](./oo_distance.png)
+
+**Interaction Behavior**:
+- **Repulsion**: O···O = 2.00 Å → Strong electronic repulsion due to orbital overlap  
+- **Equilibrium**: O···O = 2.901 Å → Minimum energy point (−152.86248 Eh)  
+- **No Interaction**: O···O ≥ 5.00 Å → Long-range distance, interaction vanishes
 
 ---
 
 ## Energy Profile
 
-The interaction energy curve reveals a **minimum near ~2.901 Å**, representing the **equilibrium O···O distance** in the hydrogen-bonded water dimer. Energies rise steeply at short distances and flatten at long distances.
+The interaction energy curve shows a minimum at 2.901 Å, which corresponds to the most stable O···O distance in the hydrogen-bonded water dimer.
+- At shorter distances, strong repulsion arises due to electron cloud overlap.
+- At longer distances, the attractive interaction fades, and the energy approaches zero.
+
+[O···O Interaction Profile](./OO_interaction_energy_curve.png)
 
 Full analysis and plots are implemented in a Jupyter notebook (`oo_energy_analysis.ipynb`).
-
----
-
-## Force Constant Estimation
-
-To estimate the **stiffness** of the O···O interaction near the minimum, a harmonic fit was applied:
-
-    E = (1/2) * k * (x - x₀)²
-
-Results:
-- Equilibrium distance x₀ ≈ 2.89 Å
-- Force constant k ≈ 18.2 N/m  (example value, replace with fitted result)
-
-This characterizes the flexibility of the hydrogen-bonded dimer.
 
 ---
 
 ## Repository Structure
 
 sample_orca_files/
-    ├── OO_scan_2.89.inp
-    └── OO_scan_2.89.out
+    ├── OO_scan_2.901.inp
+    └── OO_scan_2.901.out
 
 data_analysis/
     ├── oo_energy_analysis.ipynb
-
-oo_energy_profile.png
+  
+optimized_dimer.jpg
+OO_interaction_energy_curve.png
 oo_distance_plot.png
 README.txt
 
@@ -72,10 +66,8 @@ README.txt
 
 **Google Colab notebook**: [Open oo_energy_analysis.ipynb](./oo_energy_analysis.ipynb)
 
-> NOTE: The full dataset includes 3000+ ORCA `.inp`, `.out`, `.gbw`, and density files with 0.01 Å spacing. Only samples and summaries are included here. Full data available upon request.
-
 ---
 
-Created by: Handsome Gisubizo
+Created by: Handson Gisubizo
 GitHub: https://github.com/handsongisubizo
 
