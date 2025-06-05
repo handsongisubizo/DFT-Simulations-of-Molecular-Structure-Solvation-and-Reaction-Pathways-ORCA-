@@ -7,8 +7,6 @@ This project analyzes the **hydrogen bond interaction** between two water molecu
 
 The image below shows the optimized water dimer used in this study:
 
- `optimized_dimer.jpg`
-
 ![Optimized Dimer](optimized_dimer.jpg)
 
 ---
