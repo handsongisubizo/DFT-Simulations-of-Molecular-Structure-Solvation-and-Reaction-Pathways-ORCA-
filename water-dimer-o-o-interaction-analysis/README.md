@@ -27,7 +27,7 @@ The image below shows the optimized water dimer used in this study:
 
 This figure illustrates how the non-bonded O···O interaction between two water molecules changes with distance:
 
-![O···O Interaction Distances](./oo_distance.png)
+![O···O Interaction Distances](./O···O Interaction Distances.png)
 
 ---
 
