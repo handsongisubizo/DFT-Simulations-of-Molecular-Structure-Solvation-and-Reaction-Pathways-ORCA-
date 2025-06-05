@@ -45,7 +45,7 @@ Full energy analysis and plotting are implemented in a Jupyter notebook availabl
 
 ---
 
-## 🔩 O–H Bond Force Constant Analysis
+##  O–H Bond Force Constant Analysis
 
 To assess the stiffness of the O–H bond, a harmonic analysis was performed using a single, gas-phase water molecule. The O–H bond was stretched and compressed symmetrically in 0.01 Å increments around the equilibrium geometry, with all other atoms fixed. For each geometry, DFT single-point energy calculations were conducted using ORCA.
 
@@ -80,6 +80,7 @@ This comparison highlights how empirical models trade physical accuracy for comp
  data_analysis/             
     ├── analysis.ipynb        
 
+ optimized_dimer.jpg
  OH_interaction_profile.png 
  hbond_distance.png 
  README.md                  
