@@ -38,8 +38,8 @@ To explore a sample configuration:
 ## H–O–H Angle Energy Profile
 
 This figure illustrates how the energy of a water molecule changes with angle deformation:
-You can **visualize or download** the raw data used in this scan from:  
- [angle_energy_data.csv](./angle_energy_data.csv)
+
+**visualize or download** the raw data used: [angle_energy_data.csv](./angle_energy_data.csv)
 
 ![H–O–H Energy Curve](./energy_curve.png)
 
