@@ -56,9 +56,8 @@ This figure illustrates how the energy of a water molecule changes with angle de
 
 To quantify the stiffness of **the H–O–H angle** in a water molecule, we performed a parabolic fit around the energy minimum.
 
-Explore the full fitting process and code in the following Colab notebook:
 
- [View notebook: Angle_forceconst.ipynb](./Angle_forceconst.ipynb)
+**visualize or download** the raw data used: [View notebook: Angle_forceconst.ipynb](./Angle_forceconst.ipynb)
  
 
 ## A zoomed-in plot near the energy minimum (used for the parabolic fit)
