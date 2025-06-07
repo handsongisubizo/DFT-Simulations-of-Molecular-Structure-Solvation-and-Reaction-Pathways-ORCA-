@@ -8,7 +8,7 @@ This project investigates how the potential energy of a single water molecule ch
 
 The image below shows the geometry of a single water molecule used in this study:
 
-![Optimized Water](./water.png)
+![Optimized Water](./water.jpg)
 
 ---
 
