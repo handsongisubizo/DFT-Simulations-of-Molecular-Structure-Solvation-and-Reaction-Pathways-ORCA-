@@ -38,6 +38,8 @@ To explore a sample configuration:
 ## H–O–H Angle Energy Profile
 
 This figure illustrates how the energy of a water molecule changes with angle deformation:
+You can **visualize or download** the raw data used in this scan from:  
+ [angle_energy_data.csv](./angle_energy_data.csv)
 
 ![H–O–H Energy Curve](./energy_curve.png)
 
@@ -47,9 +49,6 @@ This figure illustrates how the energy of a water molecule changes with angle de
 - **Repulsion**: Angle = 60° → High energy due to strong steric repulsion  
 - **Equilibrium**: Angle ≈ 105.2° → Minimum energy configuration  
 - **Deformation**: Angle = 180° → Higher energy due to orbital strain  
-
-You can **visualize or download** the raw data used in this scan from:  
-📎 [angle_energy_data.csv](./angle_energy_data.csv)
 
 ---
 
@@ -67,14 +66,7 @@ Explore the full fitting process and code in the following Colab notebook:
 
 ---
 
-## Notebooks
-
--  `Angle.ipynb` → plots energy vs angle and explores the full scan  
--  `Angle_forceconst.ipynb` → fits curve and calculates force constant
-
----
-
 ## Author
 
 Created by: **Handson Gisubizo**  
-🔗 GitHub: [https://github.com/handsongisubizo](https://github.com/handsongisubizo)
+ GitHub: [https://github.com/handsongisubizo](https://github.com/handsongisubizo)
