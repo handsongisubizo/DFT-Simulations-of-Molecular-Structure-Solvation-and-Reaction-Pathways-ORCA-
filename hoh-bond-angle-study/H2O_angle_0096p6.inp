@@ -1,0 +1,17 @@
+! B3LYP D4 def2-TZVP VeryTightSCF
+
+%pal
+   nprocs 8
+end
+
+%maxcore 9000
+
+%geom
+   MaxIter 600
+end
+
+* xyz 0 1
+O  -3.589760   3.398151   0.031348
+H  -3.401909   2.462975  -0.098392
+H  -3.985325   3.552443  -0.832595
+*
