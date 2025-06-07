@@ -28,7 +28,7 @@ The image below shows the geometry of a single water molecule used in this study
 
 This figure illustrates how the energy of a water molecule changes with angle deformation:
 
-![H–O–H Energy Curve](./download (16).png)
+![H–O–H Energy Curve](./energy_curve.png)
 
 ---
 
