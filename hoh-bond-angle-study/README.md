@@ -60,7 +60,7 @@ To quantify the stiffness of **the H–O–H angle** in a water molecule, we per
 Explore the full fitting process and code in the following Colab notebook:
  [View notebook: Angle_forceconst.ipynb](./Angle_forceconst.ipynb)
 
-A zoomed-in plot near the energy minimum, used for the parabolic fit, is shown below:
+**A zoomed-in plot near the energy minimum, used for the parabolic fit, is shown below:**
 ![Parabolic Fit (near minimum)](./Parabolic_fits_near_minimum.png)
 
 ---
