@@ -17,10 +17,10 @@ The image below shows the geometry of a single water molecule used in this study
 - **System**: Single H₂O molecule  
 - **Software**: ORCA for quantum chemistry; Python (Google Colab) for analysis  
 - **Procedure**:
-  - Begin from the optimized geometry of H₂O (equilibrium H–O–H angle ≈ 104.5°)
-  - Fix O–H bond lengths and vary the **H–O–H bond angle** from 80° to 130° in 1° steps
+  - Begin from the optimized geometry of H₂O (equilibrium H–O–H angle ≈ 105.2°)
+  - Fix O–H bond lengths and vary the **H–O–H bond angle** from 60° to 180° in 0.1° steps
   - Perform **single-point energy calculations** at each angle
-  - Visualize and fit the energy curve using Python to extract the **angle force constant**
+  - Visualize and fit the energy curve using python.
 
 ---
 
@@ -28,14 +28,14 @@ The image below shows the geometry of a single water molecule used in this study
 
 This figure illustrates how the energy of a water molecule changes with angle deformation:
 
-![H–O–H Energy Curve](./8e3bc97c-d785-4c2d-8df8-a63809471cf7.png)
+![H–O–H Energy Curve](./download (16).png)
 
 ---
 
 **Interaction Behavior**:
-- **Repulsion**: Angle = 80° → High energy due to strong steric repulsion  
-- **Equilibrium**: Angle ≈ 104.5° → Minimum energy configuration  
-- **Deformation**: Angle = 130° → Higher energy due to orbital strain  
+- **Repulsion**: Angle = 60° → High energy due to strong steric repulsion  
+- **Equilibrium**: Angle ≈ 105.2° → Minimum energy configuration  
+- **Deformation**: Angle = 180° → Higher energy due to orbital strain  
 
 You can **visualize or download** the raw data used in this scan from:  
 📎 [angle_energy_data.csv](./angle_energy_data.csv)
