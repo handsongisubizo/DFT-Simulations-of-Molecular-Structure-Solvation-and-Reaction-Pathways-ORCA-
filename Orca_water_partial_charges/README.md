@@ -4,6 +4,14 @@ This project demonstrates how I used **ORCA** to compute the **partial atomic ch
 
 ---
 
+## Molecular Structure
+
+The water molecule shown below was used as the geometry input to compute CHELPG partial atomic charges using ORCA.
+
+![Optimized Water](./water.jpg)
+
+---
+
 ## CHELPG vs Standard Water Models
 
 ![Partial Charges Comparison](orca_vs_forcefield_partial_charges.png)
