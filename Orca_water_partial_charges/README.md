@@ -21,7 +21,7 @@ The plot compares CHELPG-derived charges from **ORCA** with established models s
 
 ---
 
-The table and plots were implemented in **Google Colab notebook** here: [Open orca-water-partial-charges.ipynb](./orca-water-partial-charges.ipynb)
+The table and plots were implemented in **Google Colab notebook** here: [Open orca-water-partial-charges.ipynb](./orca_water_partial_charges.ipynb)
 
 ---
 
