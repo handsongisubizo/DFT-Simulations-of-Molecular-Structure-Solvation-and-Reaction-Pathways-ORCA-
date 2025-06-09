@@ -35,9 +35,9 @@ The plot compares CHELPG-derived charges from **ORCA** with established models s
 
 You can explore or reproduce the ORCA calculation using the files below:
 
-- 🔹 [`Partial_charge.inp`](./Partial_charge.inp) – ORCA input file
-- 🔹 [`Partial_charge.out`](./Partial_charge.out) – ORCA output with CHELPG data
-- 🔹 [`Partial_charge.pc_chelpg`](./Partial_charge.pc_chelpg) – CHELPG charges and atomic coordinates
+ 🔹 [`Partial_charge.inp`](./Partial_charge.inp) – ORCA input file
+ 🔹 [`Partial_charge.out`](./Partial_charge.out) – ORCA output file
+ 🔹 [`Partial_charge.pc_chelpg`](./Partial_charge.pc_chelpg) – CHELPG charges and atomic coordinates
 
 ---
 
@@ -52,8 +52,6 @@ You can explore or reproduce the ORCA calculation using the files below:
 | `README.md`                               | This documentation file                             |
 
 ---
-
-##  Why This Matters
 
 ## This simple analysis shows how quantum-derived charges:
 
