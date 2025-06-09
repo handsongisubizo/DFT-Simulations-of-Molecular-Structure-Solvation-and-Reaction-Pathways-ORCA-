@@ -14,7 +14,8 @@ The water molecule shown below was used as the geometry input to compute CHELPG 
 
 ## CHELPG vs Standard Water Models
 
-![Partial Charges Comparison](orca_vs_forcefield_partial_charges.png)
+![Partial Charges table Comparison](orca_vs_forcefield_partial_charges.png)
+![Partial Charges plot Comparison](orca_vs_forcefiel_partial_charges.png)
 
 The plot compares CHELPG-derived charges from **ORCA** with established models such as **TIP3P**, **SPC/E**, **POL3**, and **TIP5P**. You can see that the ORCA result closely aligns with **POL3**, a DFT-informed force field, and also shows strong agreement with the other classical models — confirming the realism and reliability of the computed charges.
 
