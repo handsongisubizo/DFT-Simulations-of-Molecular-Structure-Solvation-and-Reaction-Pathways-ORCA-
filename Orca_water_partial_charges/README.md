@@ -21,6 +21,10 @@ The plot compares CHELPG-derived charges from **ORCA** with established models s
 
 ---
 
+The table and plots were implemented in **Google Colab notebook**: [Open oo_energy_analysis.ipynb](./oo_energy_analysis.ipynb)
+
+---
+
 ## Method Summary
 
 - **Software**: [ORCA](https://orcaforum.cec.mpg.de/)
@@ -58,9 +62,8 @@ You can explore or reproduce the ORCA calculation using the files below:
 - Are physically meaningful and symmetry-consistent
 - Compare well with trusted classical models like **POL3**
 
+
 ---
 
-## 📬 Contact
-
-If you'd like to reproduce, reuse, or collaborate:
-- 💻 [Your GitHub profile or email here]
+Created by: Handson Gisubizo
+GitHub: https://github.com/handsongisubizo
