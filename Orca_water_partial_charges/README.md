@@ -40,7 +40,9 @@ The table and plots were implemented in **Google Colab notebook**: [Open oo_ener
 You can explore or reproduce the ORCA calculation using the files below:
 
  🔹 [`Partial_charge.inp`](./Partial_charge.inp) – ORCA input file
+ 
  🔹 [`Partial_charge.out`](./Partial_charge.out) – ORCA output file
+ 
  🔹 [`Partial_charge.pc_chelpg`](./Partial_charge.pc_chelpg) – CHELPG charges and atomic coordinates
 
 ---
