@@ -27,7 +27,7 @@ The table and plots were implemented in **Google Colab notebook** here: [Open or
 
 ## Method Summary
 
-- **Software**: [ORCA]([https://orcaforum.cec.mpg.de/](https://www.faccts.de/orca/))
+- **Software**:[ORCA](https://www.faccts.de/orca/)
 - **Level of theory**: `B3LYP D4/def2-TZVP`
 - **Charge fitting method**: CHELPG (Electrostatic Potential)
 - **System**: Water molecule (H₂O)
