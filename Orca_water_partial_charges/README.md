@@ -1,6 +1,6 @@
 # Partial Atomic Charges of Water from ORCA
 
-This project demonstrates how I used **ORCA** to compute the **partial atomic charges** of a single water molecule (H₂O) using the **CHELPG method**. The results are then compared to several well-known water models commonly used in molecular dynamics and force field development.
+This project demonstrates how I used **ORCA** to compute the **partial atomic charges** of a single water molecule (H₂O) using the [**CHELPG method**](https://en.wikipedia.org/wiki/CHELPG). The results are then compared to several well-known water models commonly used in molecular dynamics and force field development.
 
 ---
 
