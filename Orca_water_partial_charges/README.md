@@ -1,6 +1,6 @@
 # Partial Atomic Charges of Water from ORCA
 
-This project demonstrates how I used [**ORCA**](https://www.faccts.de/orca/) to compute the [**partial atomic charges**](https://pubs.acs.org/doi/10.1021/acs.jctc.0c01102) of a single water molecule (H₂O) using the [**CHELPG method**](https://en.wikipedia.org/wiki/CHELPG). The results are then compared to several well-known water models commonly used in molecular dynamics and force field development.
+This project demonstrates how I used [**ORCA**](https://www.faccts.de/orca/) to compute the [**partial atomic charges**](https://pubs.acs.org/doi/10.1021/acs.jctc.0c01102) of a single water molecule (H₂O) using the [**CHELPG method**](https://en.wikipedia.org/wiki/CHELPG). The results are then compared to several well-known water models commonly used in [molecular dynamics](https://en.wikipedia.org/wiki/Molecular_dynamics) and [force field development](https://en.wikipedia.org/wiki/Force_field_(chemistry)).
 
 ---
 
