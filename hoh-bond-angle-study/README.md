@@ -154,6 +154,59 @@ E_1 = -76.42634167       # DFT energy at perturbed angle
 
 
 
+## 🧪 How Is \( k_\theta \) Calculated?
+
+We apply the harmonic approximation:
+
+\[
+\Delta E = \frac{1}{2} k_\theta (\Delta \theta)^2
+\]
+
+**Inputs from DFT:**
+
+- Equilibrium angle: \( \theta_0 = 105.24^\circ \)  
+- Perturbed angle: \( \theta_1 = 104.24^\circ \)  
+- Energies:  
+  \( E_0 = -76.42636593 \, \text{Hartree} \)  
+  \( E_1 = -76.42634167 \, \text{Hartree} \)
+
+---
+
+### 🔢 Step-by-Step Calculation
+
+**1. Energy Difference**
+
+\[
+\Delta E = E_1 - E_0 = -76.42634167 - (-76.42636593) = 0.00002426 \, \text{Hartree}
+\]
+
+**2. Angle Deviation**
+
+\[
+\Delta \theta = \theta_1 - \theta_0 = -1.00^\circ = -0.01745 \, \text{rad}
+\]
+
+**3. Force Constant in Hartree/rad²**
+
+\[
+k_\theta = \frac{2 \Delta E}{(\Delta \theta)^2} = \frac{2 \times 0.00002426}{(0.01745)^2} = 0.15928 \, \text{Hartree/rad}^2
+\]
+
+**4. Convert to kcal/mol/rad²**
+
+\[
+k_\theta = 0.15928 \times 627.5095 = 99.95 \, \text{kcal/mol/rad}^2
+\]
+
+**5. Convert to kcal/mol/deg²**
+
+\[
+1 \, \text{rad}^2 = \left( \frac{180}{\pi} \right)^2 \approx 3282.81 \, \text{deg}^2
+\]
+
+\[
+k_\theta = \frac{99.95}{3282.81} = 0.03045 \, \text{kcal/mol/deg}^2
+\]
 
 
 
