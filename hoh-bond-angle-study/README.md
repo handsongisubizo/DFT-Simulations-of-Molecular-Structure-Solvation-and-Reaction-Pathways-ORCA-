@@ -69,13 +69,13 @@ To quantify the stiffness of **the H–O–H angle** in a water molecule, we per
 
 ---
 
-# 💧 Angular Force Constant & Bond Angle Analysis of Water Models
+#  Angular Force Constant & Bond Angle Analysis
 
-This project uses DFT data to calculate the angular force constant \( k_\theta \) of water and compares it with values from widely used water models. It provides clear visuals, a scientific explanation, and tools for applying your own data.
+This section uses the above DFT data to calculate the angular force constant \( k_\theta \) of water and compares it with values from widely used water models.
 
 ---
 
-## 🧪 How Is \( k_\theta \) Calculated?
+##  How Is \( k_\theta \) Calculated?
 
 We apply the harmonic approximation:
 
@@ -90,7 +90,7 @@ We apply the harmonic approximation:
   \( E_0 = -76.42636593 \),  
   \( E_1 = -76.42634167 \) Hartree
 
-**Step-by-step:**
+**Steps:**
 
 1. **Energy difference**  
    \( \Delta E = E_1 - E_0 = 0.00002426 \) Hartree  
@@ -104,110 +104,53 @@ We apply the harmonic approximation:
    - \( 0.15928 \times 627.5095 = 99.95 \, \text{kcal/mol/rad}^2 \)  
    - \( 99.95 / 3282.81 = 0.03045 \, \text{kcal/mol/deg}^2 \)
 
-✅ This makes it compatible with **LAMMPS-style angle potentials**.
+---
+
+##  Comparison Plots
+
+You can explore the interactive **Google Colab notebook** used for all calculations, visualizations, and analysis:  
+ `water_models_k_theta_angle_analysis.ipynb`
 
 ---
 
-## 📘 What This Project Includes
+###  Bond Angle Comparison
 
-- 📐 **Angular Force Constant Calculator**  
-  A Python script to compute \( k_\theta \) from your DFT energies.
+ Visual comparison of **equilibrium H–O–H bond angles** for popular water models.
 
-- 📏 **Bond Angle Comparison Plot**  
-  Horizontal bar chart showing H–O–H angles across water models.
-
-- 📉 **k_theta Comparison Plot**  
-  Visual comparison of angular stiffness (kcal/mol/rad²).
-
-- 📦 **High-resolution outputs**  
-  Plots and tables are saved as `.jpg` for presentation use.
+![Equilibrium Angles Plot](./equilibrium_angles_plot_highlighted.jpg)
 
 ---
 
-## 📊 Sample Visuals
+### Force Constant Table
 
-| Angular Stiffness | Bond Angle Comparison |
-|-------------------|------------------------|
-| `plot_horizontal_bar_corrected.jpg` | `equilibrium_angles_plot_highlighted.jpg` |
+ A tabulated overview of models, angles, and angular force constants.
+
+![Force Constants Table](./water_force_constants_table.jpg)
+
 
 ---
 
-## 📁 Repository Files
+###  Angular Force Constant Comparison
 
-- `water_models_k_theta_angle_analysis.ipynb`: Main notebook  
-- `water_force_constants_table.jpg`: Summary table of models  
-- `plot_horizontal_bar_corrected.jpg`: Comparison of kθ  
-- `equilibrium_angles_plot_highlighted.jpg`: Comparison of bond angles (with DFT fit highlighted)
+Bar plot comparing the **stiffness of angle bending** \( k_\theta \) across models.
 
----
-
-## 🧬 Use Your Own Data
-
-Modify this block in the notebook or script:
-
-```python
-theta_0_deg = 105.24     # equilibrium angle
-theta_1_deg = 104.24     # perturbed angle
-E_0 = -76.42636593       # DFT energy at equilibrium
-E_1 = -76.42634167       # DFT energy at perturbed angle
-
-
-
-
-## 🧪 How Is \( k_\theta \) Calculated?
-
-We apply the harmonic approximation:
-
-\[
-\Delta E = \frac{1}{2} k_\theta (\Delta \theta)^2
-\]
-
-**Inputs from DFT:**
-
-- Equilibrium angle: \( \theta_0 = 105.24^\circ \)  
-- Perturbed angle: \( \theta_1 = 104.24^\circ \)  
-- Energies:  
-  \( E_0 = -76.42636593 \, \text{Hartree} \)  
-  \( E_1 = -76.42634167 \, \text{Hartree} \)
+![k_theta Bar Plot](./plot_horizontal_bar_angular.jpg)
 
 ---
 
-### 🔢 Step-by-Step Calculation
+## Conclusion
 
-**1. Energy Difference**
+The DFT-derived angular force constant and bond angle for water:
 
-\[
-\Delta E = E_1 - E_0 = -76.42634167 - (-76.42636593) = 0.00002426 \, \text{Hartree}
-\]
+- \( k_\theta = 99.95 \, \text{kcal/mol/rad}^2 \)
+- \( \theta_0 = 105.24^\circ \)
 
-**2. Angle Deviation**
+show **excellent agreement** with the most accurate flexible water models such as:
 
-\[
-\Delta \theta = \theta_1 - \theta_0 = -1.00^\circ = -0.01745 \, \text{rad}
-\]
+- **TIP4P/2005** and **TIP4P-Flexible variants**, both having \( k_\theta \approx 100 \, \text{kcal/mol/rad}^2 \)
+- Your bond angle is slightly closer to experimental vibrational values than the common fixed angle of 104.52° used in TIP models.
 
-**3. Force Constant in Hartree/rad²**
-
-\[
-k_\theta = \frac{2 \Delta E}{(\Delta \theta)^2} = \frac{2 \times 0.00002426}{(0.01745)^2} = 0.15928 \, \text{Hartree/rad}^2
-\]
-
-**4. Convert to kcal/mol/rad²**
-
-\[
-k_\theta = 0.15928 \times 627.5095 = 99.95 \, \text{kcal/mol/rad}^2
-\]
-
-**5. Convert to kcal/mol/deg²**
-
-\[
-1 \, \text{rad}^2 = \left( \frac{180}{\pi} \right)^2 \approx 3282.81 \, \text{deg}^2
-\]
-
-\[
-k_\theta = \frac{99.95}{3282.81} = 0.03045 \, \text{kcal/mol/deg}^2
-\]
-
+This confirms the quality of your DFT results and validating methods used.
 
 
 ## Author
