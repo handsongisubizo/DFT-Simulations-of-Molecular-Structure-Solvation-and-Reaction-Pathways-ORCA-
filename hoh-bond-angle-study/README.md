@@ -39,7 +39,7 @@ To explore a sample configuration:
 
 This figure illustrates how the energy of a water molecule changes with angle deformation:
 
-**visualize/download** the raw data used: [angle_energy_data.csv](./angle_energy_data.csv)
+**Access or retrieve** the raw input data: [angle_energy_data.csv](./angle_energy_data.csv)
 
 ![H–O–H Energy Curve](./energy_curve.png)
 
@@ -62,7 +62,7 @@ To quantify the stiffness of **the H–O–H angle** in a water molecule, we per
 
 ## A zoomed-in plot near the energy minimum 
 
-**visualize/download** the raw data used: [angle_energy_near minimum.csv](./hoh_angle_energy_data_const.csv)
+**Plot or export** the source data: [angle_energy_near minimum.csv](./hoh_angle_energy_data_const.csv)
 
 
 ![Parabolic Fit (near minimum)](./Parabolic_fits_near_minimum.png)
