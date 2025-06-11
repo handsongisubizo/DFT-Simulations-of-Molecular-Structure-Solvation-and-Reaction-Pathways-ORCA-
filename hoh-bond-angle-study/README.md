@@ -69,6 +69,94 @@ To quantify the stiffness of **the H–O–H angle** in a water molecule, we per
 
 ---
 
+# 💧 Angular Force Constant & Bond Angle Analysis of Water Models
+
+This project uses DFT data to calculate the angular force constant \( k_\theta \) of water and compares it with values from widely used water models. It provides clear visuals, a scientific explanation, and tools for applying your own data.
+
+---
+
+## 🧪 How Is \( k_\theta \) Calculated?
+
+We apply the harmonic approximation:
+
+\[
+\Delta E = \frac{1}{2} k_\theta (\Delta \theta)^2
+\]
+
+**Inputs from DFT:**
+- Equilibrium angle: \( \theta_0 = 105.24^\circ \)
+- Perturbed angle: \( \theta_1 = 104.24^\circ \)
+- Energies:  
+  \( E_0 = -76.42636593 \),  
+  \( E_1 = -76.42634167 \) Hartree
+
+**Step-by-step:**
+
+1. **Energy difference**  
+   \( \Delta E = E_1 - E_0 = 0.00002426 \) Hartree  
+2. **Angle change**  
+   \( \Delta \theta = -1.00^\circ = -0.01745 \) rad  
+3. **Force constant**  
+   \[
+   k_\theta = \frac{2 \Delta E}{(\Delta \theta)^2} = 0.15928 \, \text{Hartree/rad}^2
+   \]
+4. **Conversions**  
+   - \( 0.15928 \times 627.5095 = 99.95 \, \text{kcal/mol/rad}^2 \)  
+   - \( 99.95 / 3282.81 = 0.03045 \, \text{kcal/mol/deg}^2 \)
+
+✅ This makes it compatible with **LAMMPS-style angle potentials**.
+
+---
+
+## 📘 What This Project Includes
+
+- 📐 **Angular Force Constant Calculator**  
+  A Python script to compute \( k_\theta \) from your DFT energies.
+
+- 📏 **Bond Angle Comparison Plot**  
+  Horizontal bar chart showing H–O–H angles across water models.
+
+- 📉 **k_theta Comparison Plot**  
+  Visual comparison of angular stiffness (kcal/mol/rad²).
+
+- 📦 **High-resolution outputs**  
+  Plots and tables are saved as `.jpg` for presentation use.
+
+---
+
+## 📊 Sample Visuals
+
+| Angular Stiffness | Bond Angle Comparison |
+|-------------------|------------------------|
+| `plot_horizontal_bar_corrected.jpg` | `equilibrium_angles_plot_highlighted.jpg` |
+
+---
+
+## 📁 Repository Files
+
+- `water_models_k_theta_angle_analysis.ipynb`: Main notebook  
+- `water_force_constants_table.jpg`: Summary table of models  
+- `plot_horizontal_bar_corrected.jpg`: Comparison of kθ  
+- `equilibrium_angles_plot_highlighted.jpg`: Comparison of bond angles (with DFT fit highlighted)
+
+---
+
+## 🧬 Use Your Own Data
+
+Modify this block in the notebook or script:
+
+```python
+theta_0_deg = 105.24     # equilibrium angle
+theta_1_deg = 104.24     # perturbed angle
+E_0 = -76.42636593       # DFT energy at equilibrium
+E_1 = -76.42634167       # DFT energy at perturbed angle
+
+
+
+
+
+
+
 ## Author
 
 Created by: **Handson Gisubizo**  
