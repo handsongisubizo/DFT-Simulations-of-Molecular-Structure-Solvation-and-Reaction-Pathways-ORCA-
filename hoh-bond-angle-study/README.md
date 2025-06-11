@@ -61,7 +61,10 @@ To quantify the stiffness of **the H–O–H angle** in a water molecule, we per
  
 
 ## A zoomed-in plot near the energy minimum 
+
 **visualize/download** the raw data used: [angle_energy_near minimum.csv](./hoh_angle_energy_data_const.csv)
+
+
 ![Parabolic Fit (near minimum)](./Parabolic_fits_near_minimum.png)
 
 ---
