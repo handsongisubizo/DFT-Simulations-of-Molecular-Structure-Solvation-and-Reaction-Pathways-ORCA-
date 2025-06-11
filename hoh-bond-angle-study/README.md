@@ -1,6 +1,6 @@
 # H–O–H Angle Deformation in Water: Energy Profile
 
-This project investigates how the potential energy of a single water molecule changes with variations in the **H–O–H bond angle**. Using **Density Functional Theory (DFT)** calculations performed in [ORCA](https://www.faccts.de/orca/), single-point energies were computed across a range of fixed angles to generate a detailed **energy profile** of angular deformation.
+This project investigates how the potential energy of a single water molecule changes with variations in the **H–O–H bond angle**. Using **Density Functional Theory (DFT)** calculations performed in [ORCA](https://www.faccts.de/orca/),[single-point energies](https://atomistica.online/course-what-is-molecular-modeling/part-2-introduction-to-single-point-energy-calculations/) were computed across a range of fixed angles to generate a detailed **energy profile** of angular deformation.
 
 ---
 
