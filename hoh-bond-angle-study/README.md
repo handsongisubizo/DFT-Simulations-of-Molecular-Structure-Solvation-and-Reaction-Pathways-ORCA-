@@ -109,7 +109,7 @@ We apply the harmonic approximation:
 ##  Comparison Plots
 
 You can explore the interactive **Google Colab notebook** used for all calculations, visualizations, and analysis:  
- `water_models_k_theta_angle_analysis.ipynb`
+ [View notebook: Water models k_theha and Angle analysis](./water_models_k_theta_angle_analysis.ipynb)
 
 ---
 
@@ -117,7 +117,7 @@ You can explore the interactive **Google Colab notebook** used for all calculati
 
  Visual comparison of **equilibrium H–O–H bond angles** for popular water models.
 
-![Equilibrium Angles Plot](./equilibrium_angles_plot_highlighted.jpg)
+![Equilibrium Angles Plot](./equilibrium_angles_plot_highlighted.png)
 
 ---
 
@@ -125,7 +125,7 @@ You can explore the interactive **Google Colab notebook** used for all calculati
 
  A tabulated overview of models, angles, and angular force constants.
 
-![Force Constants Table](./water_force_constants_table.jpg)
+![Force Constants Table](./water_force_constants_table.png)
 
 
 ---
@@ -134,7 +134,7 @@ You can explore the interactive **Google Colab notebook** used for all calculati
 
 Bar plot comparing the **stiffness of angle bending** \( k_\theta \) across models.
 
-![k_theta Bar Plot](./plot_horizontal_bar_angular.jpg)
+![k_theta Bar Plot](./plot_horizontal_bar_angular.png)
 
 ---
 
