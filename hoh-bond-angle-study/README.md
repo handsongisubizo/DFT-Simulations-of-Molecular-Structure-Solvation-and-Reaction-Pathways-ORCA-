@@ -18,9 +18,9 @@ The image below shows the geometry of a single water molecule used in this study
 - **Software**: ORCA for quantum chemistry; Python [Google Colab](https://colab.research.google.com) for analysis  
 - **Procedure**:
   - Begin from the optimized geometry of H₂O (equilibrium H–O–H angle ≈ 105.2°)
-  - Fix O–H bond lengths and vary the **H–O–H bond angle** from 60° to 180° in 0.1° steps
+  - Fix O–H bond lengths and vary the **H–O–H bond angle** from 1° to 180° in 0.1° steps
   - Perform **single-point energy calculations** at each angle
-  - Visualize and fit the energy curve using python.
+  - Visualize and fit the energy curve using Google Colab.
  
 ---
 
