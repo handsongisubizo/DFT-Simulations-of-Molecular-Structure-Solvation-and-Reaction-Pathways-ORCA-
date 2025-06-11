@@ -113,19 +113,20 @@ You can explore the interactive **Google Colab notebook** used for all calculati
 
 ---
 
+### Force Constant Table
+
+ A tabulated overview of models, angles, and angular force constants.
+
+![Force Constants Table](./water_force_constants_table.png)
+
+---
+
 ###  Bond Angle Comparison
 
  Visual comparison of **equilibrium H–O–H bond angles** for popular water models.
 
 ![Equilibrium Angles Plot](./equilibrium_angles_plot_highlighted.png)
 
----
-
-### Force Constant Table
-
- A tabulated overview of models, angles, and angular force constants.
-
-![Force Constants Table](./water_force_constants_table.png)
 
 
 ---
