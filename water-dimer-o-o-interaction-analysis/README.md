@@ -65,6 +65,26 @@ Full analysis and plots are implemented in a Jupyter notebook (`oo_energy_analys
 
 **Google Colab notebook**: [Open oo_energy_analysis.ipynb](./oo_energy_analysis.ipynb)
 
+
+Lennard-Jones Parameter Calculation (ε and σ)
+
+O···O interaction energies were computed using ORCA (B3LYP-D4/def2-TZVP) from 2.850 Å to 2.950 Å in 0.0001 Å steps.
+
+Minimum energy (E_min) = –152.86248025 Eh at r_min = 2.901 Å  
+Energy at 2.851 Å = –152.86242233 Eh
+
+ 1: Epsilon (ε)
+ΔE = 0.00005792 Eh  
+ε = 0.00005792 × 627.509 = 0.0363 kcal/mol
+
+ 2: Sigma (σ)
+σ = r_min / 2^(1/6) = 2.901 / 1.12246 = 2.584 Å
+
+Final Lennard-Jones Parameters:
+ε = 0.0363 kcal/mol  
+σ = 2.584 Å
+
+
 ---
 
 Created by: Handson Gisubizo
