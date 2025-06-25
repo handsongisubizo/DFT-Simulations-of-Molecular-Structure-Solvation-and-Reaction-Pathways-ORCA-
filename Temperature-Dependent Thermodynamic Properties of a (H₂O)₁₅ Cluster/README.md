@@ -56,4 +56,4 @@ This analysis confirms the expected thermodynamic behavior of a water cluster in
 ---
 
 Created by [Handson Gisubizo](https://github.com/handsongisubizo)  
-Contact: hgisubi1@jhu.edu
+
