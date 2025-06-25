@@ -8,19 +8,19 @@ This repository contains **DFT calculations** of a 15-molecule water cluster per
 
 ---
 
-##  Files Included
+###  Files Included
 
-| File                              | Description |
-|----------------------------------|-------------|
-| `opt_15h2o.inp`                   | ORCA input for geometry optimization |
-| `opt_15h2o.out`                   | Output file from optimization |
-| `freq_15h2o.inp`                  | ORCA input for frequency analysis |
-| `freq_15h2o.out`                  | Frequency analysis output |
-| `15h2o_final.xyz`                 | Optimized structure (XYZ format) |
-| `opt_energy_15h2o.png`            | Plot of SCF energy vs optimization steps |
-| `15h2o_cluster_optimized.jpg`     | Visualization of final water cluster |
-| `ir_spectrum_15h2o_annotated.png` | Annotated IR spectrum (key peaks labeled) |
-| `bond_stats_15h2o.png`            | Histograms of bond lengths and angles |
+| File | Description |
+|------|-------------|
+| [opt_15h2o.inp](./opt_15h2o.inp) | ORCA input for geometry optimization |
+| [opt_15h2o.out](./opt_15h2o.out) | Output file from optimization |
+| [freq_15h2o.inp](./freq_15h2o.inp) | ORCA input for frequency analysis |
+| [freq_15h2o.out](./freq_15h2o.out) | Frequency analysis output |
+| [15h2o_final.xyz](./15h2o_final.xyz) | Optimized structure (XYZ format) |
+| [gibbs_energy_15h2o.png](./gibbs_energy_15h2o.png) | Plot of SCF energy vs optimization steps |
+| [15h2o_cluster_optimized.jpg](./15h2o_cluster_optimized.jpg) | Visualization of final water cluster |
+| [ir_spectrum_15h2o_annotated.png](./ir_spectrum_15h2o_annotated.png) | Annotated IR spectrum (key peaks labeled) |
+| [bond_stats_15h2o.png](./bond_stats_15h2o.png) | Histograms of bond lengths and angles |
 
 ---
 
