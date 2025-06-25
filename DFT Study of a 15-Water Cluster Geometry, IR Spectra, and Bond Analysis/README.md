@@ -1,7 +1,7 @@
 
 # Water Cluster (H₂O)₁₅: Geometry Optimization and Frequency Analysis
 
-This repository contains **DFT calculations** of a 15-molecule water cluster performed using **ORCA 6.0.0**. The project includes geometry optimization, harmonic vibrational frequency analysis, and visualization of molecular structure and energetics.
+This repository contains **DFT calculations** of a 15-molecule water cluster performed using [ORCA 6.0.0](https://www.faccts.de/orca-6-release/. The project includes geometry optimization, harmonic vibrational frequency analysis, and visualization of molecular structure and energetics.
 
  **Watch the full optimization steps here**:  
  [YouTube Video](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
@@ -21,6 +21,10 @@ This repository contains **DFT calculations** of a 15-molecule water cluster per
 | [15h2o_cluster_optimized.jpg](./15h2o_cluster_optimized.jpg) | Visualization of final water cluster |
 | [ir_spectrum_15h2o_annotated.png](./ir_spectrum_15h2o_annotated.png) | Annotated IR spectrum (key peaks labeled) |
 | [bond_stats_15h2o.png](./bond_stats_15h2o.png) | Histograms of bond lengths and angles |
+
+>  **Note about large output files:**  
+Some ORCA output files (like `opt_15h2o.out`) are too large to preview directly on GitHub.  
+To view or download them, simply click **"View raw"** at the top of the file page.
 
 ---
 
