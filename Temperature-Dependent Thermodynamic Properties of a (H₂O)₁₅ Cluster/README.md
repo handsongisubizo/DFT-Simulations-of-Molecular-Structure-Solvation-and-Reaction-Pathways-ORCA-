@@ -7,13 +7,14 @@ This folder contains thermodynamic calculations of a 15-water molecule cluster (
 
 ## Files Included
 
-| File Name                    | Description |
-|-----------------------------|-------------|
-| `Opt_15H2O_300.inp` to `Opt_15H2O_1000.inp` | ORCA input files for thermodynamic calculations at different temperatures |
-| `Opt_15H2O_300.out` to `Opt_15H2O_1000.out` | ORCA output files containing vibrational and thermodynamic data |
-| `thermo_properties_15h2o.png` | Plot showing U, H, and T·S vs. temperature |
-| `gibbs_energy_15h2o.png`     | Plot showing Gibbs free energy (G) and enthalpy (H) vs. temperature |
-| `README.md`                  | Description of files and methodology used |
+| File Name | Description |
+|-----------|-------------|
+| [Opt_15H2O_300.inp](./Opt_15H2O_300.inp) to [Opt_15H2O_1000.inp](./Opt_15H2O_1000.inp) | ORCA input files for thermodynamic calculations at different temperatures |
+| [Opt_15H2O_300.out](./Opt_15H2O_300.out) to [Opt_15H2O_1000.out](./Opt_15H2O_1000.out) | ORCA output files containing vibrational and thermodynamic data |
+| [thermo_properties_15h2o.png](./thermo_properties_15h2o.png) | Plot showing U, H, and T·S vs. temperature |
+| [gibbs_energy_15h2o.png](./gibbs_energy_15h2o.png) | Plot showing Gibbs free energy (G) and enthalpy (H) vs. temperature |
+| [README.md](./README.md) | Description of files and methodology used |
+
 
 ---
 
