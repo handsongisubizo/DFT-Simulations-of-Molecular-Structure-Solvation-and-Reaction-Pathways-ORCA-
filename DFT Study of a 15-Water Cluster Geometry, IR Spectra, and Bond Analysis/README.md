@@ -4,10 +4,7 @@
 This repository contains **DFT calculations** of a 15-molecule water cluster performed using [**ORCA** 6.0.0](https://www.faccts.de/orca-6-release/)
  The project includes geometry optimization, harmonic vibrational frequency analysis, and visualization of molecular structure and energetics.
 
- **Watch the full optimization steps here**:  
- [YouTube Video](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
-
- ## 🎬 Watch the full optimization steps here:
+ ## **Watch the full optimization steps here**:
 
 [![Watch the video](http://img.youtube.com/vi/hJ1o1aLP7s4/0.jpg)](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
 
