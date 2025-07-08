@@ -7,6 +7,11 @@ This repository contains **DFT calculations** of a 15-molecule water cluster per
  **Watch the full optimization steps here**:  
  [YouTube Video](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
 
+ ## 🎬 Watch the full optimization steps here:
+
+[![Watch the video](http://img.youtube.com/vi/hJ1o1aLP7s4/0.jpg)](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
+
+
 ---
 
 ###  Files Included
