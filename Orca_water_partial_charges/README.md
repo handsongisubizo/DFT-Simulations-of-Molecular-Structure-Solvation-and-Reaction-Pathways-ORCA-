@@ -48,18 +48,6 @@ You can explore or reproduce the ORCA calculation using the files below:
 
 ---
 
-## Files in This Repository
-
-| File                                      | Description                                         |
-|-------------------------------------------|-----------------------------------------------------|
-| `Partial_charge.inp`                      | ORCA input file for a single water molecule         |
-| `Partial_charge.out`                      | ORCA output file with CHELPG charge results         |
-| `Partial_charge.pc_chelpg`                | Final CHELPG point charges and coordinates          |
-| `orca_vs_forcefield_partial_charges.png`  | Plot comparing ORCA charges to classical models     |
-| `README.md`                               | This documentation file                             |
-
----
-
 ## This simple analysis shows how quantum-derived charges:
 
 - Are physically meaningful and symmetry-consistent
