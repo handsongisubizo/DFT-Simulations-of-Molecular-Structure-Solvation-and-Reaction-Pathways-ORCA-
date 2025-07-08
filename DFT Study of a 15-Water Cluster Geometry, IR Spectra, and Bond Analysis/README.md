@@ -91,6 +91,4 @@ The simulated IR spectrum reveals expected vibrational features:
 ---
 
 ##  Links
-
--  **Video demonstration**: [DFT Geometry Optimization of (H₂O)₁₅ Cluster](https://www.youtube.com/watch?v=hJ1o1aLP7s4)  
 -  **GitHub profile**: [HandsonGisubizo](https://github.com/handsongisubizo)
