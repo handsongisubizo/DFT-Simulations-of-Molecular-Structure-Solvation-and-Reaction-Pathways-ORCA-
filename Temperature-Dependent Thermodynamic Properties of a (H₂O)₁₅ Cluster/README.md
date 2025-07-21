@@ -2,10 +2,10 @@
 
 This folder contains thermodynamic calculations of a **15-water molecule cluster** `((H₂O)₁₅)` using [**ORCA 6.0.0**](https://orcaforum.kofo.mpg.de/). The simulations were conducted at multiple temperatures to extract key thermodynamic properties:
 
-- [**Internal Energy (U)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Internal_Energy)
-- [**Enthalpy (H)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Enthalpy)
-- [**Gibbs Free Energy (G)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Gibbs_Energy)
-- [**Entropy (T·S)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Entropy)
+- [**Internal Energy (U)**]
+- [**Enthalpy (H)**]
+- [**Gibbs Free Energy (G)**]
+- [**Entropy (T·S)**]
 
 Each property was derived from vibrational frequency and thermochemistry data generated via ORCA.
 
@@ -24,16 +24,6 @@ Each property was derived from vibrational frequency and thermochemistry data ge
 
 ---
 
-## Methodology
-
-- **Software**: ORCA 6.0.0
-- **Functional**: B3LYP with Grimme D4 dispersion correction
-- **Basis Set**: def2-TZVP
-- **SCF Settings**: VeryTightSCF
-- **Vibrational Calculation**: `Freq` keyword used to obtain thermodynamic functions at each temperature
-- **Temperatures Studied**: 300 K to 1000 K
-
----
 
 ## Results
 
