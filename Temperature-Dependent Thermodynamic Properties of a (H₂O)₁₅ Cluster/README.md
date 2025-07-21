@@ -1,7 +1,13 @@
-
 # Thermodynamic Analysis of (H₂O)₁₅ Cluster
 
-This folder contains thermodynamic calculations of a 15-water molecule cluster ((H₂O)₁₅) using ORCA 6.0.0. The simulations were conducted at multiple temperatures to extract thermodynamic properties such as internal energy (U), enthalpy (H), Gibbs free energy (G), and entropy (T·S).
+This folder contains thermodynamic calculations of a **15-water molecule cluster** `((H₂O)₁₅)` using [**ORCA 6.0.0**](https://orcaforum.kofo.mpg.de/). The simulations were conducted at multiple temperatures to extract key thermodynamic properties:
+
+- [**Internal Energy (U)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Internal_Energy)
+- [**Enthalpy (H)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Enthalpy)
+- [**Gibbs Free Energy (G)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Gibbs_Energy)
+- [**Entropy (T·S)**](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Entropy)
+
+Each property was derived from vibrational frequency and thermochemistry data generated via ORCA.
 
 ---
 
