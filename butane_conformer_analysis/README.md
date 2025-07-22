@@ -50,15 +50,15 @@ These results match well-known experimental and theoretical data, validating the
 
 **Anti Conformer (180°):**
 
-![Anti Conformer](images/anti.png)
+![Anti Conformer](butane_180.jpg)
 
 **Gauche Conformer (60°):**
 
-![Gauche Conformer](images/gauche.png)
+![Gauche Conformer](butane_60.jpg)
 
 **Eclipsed Conformer (0°):**
 
-![Eclipsed Conformer](images/eclipsed.png)
+![Eclipsed Conformer](butane_0.jpg)
 
 These images illustrate the structural differences between the key conformers.
 
