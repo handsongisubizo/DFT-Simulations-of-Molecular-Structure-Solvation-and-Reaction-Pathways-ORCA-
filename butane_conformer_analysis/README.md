@@ -52,7 +52,7 @@ These results match well-known experimental and theoretical data, validating the
 
 ![Anti Conformer](butane_180.jpg)
 
-**Gauche Conformer (60°):**
+**Gauche Conformer (-60°):**
 
 ![Gauche Conformer](butane_60.jpg)
 
