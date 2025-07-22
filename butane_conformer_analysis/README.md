@@ -1,29 +1,98 @@
+# Butane Conformational Energy Profile
 
-# Butane Conformer (+180° Dihedral Angle)
+## Purpose of Study
 
-This folder contains files related to the +180° conformer of *n*-butane as part of a conformational analysis project using Density Functional Theory (DFT) with ORCA.
+This project investigates how rotation around the central C–C–C–C dihedral angle affects the potential energy of butane. The aim is to visualize and quantify the energy changes as the molecule rotates, identifying stable conformers and rotational barriers.
 
-## 📁 Contents
+Understanding conformational energy profiles is fundamental in physical chemistry and molecular modeling, explaining:
+- Why certain conformations are more stable.
+- How molecules transition between conformers.
+- The concept of torsional strain and energy barriers.
 
-- `butane_+180°.xyz` — Geometry of the +180° conformer in XYZ format.
-- `input_+180°.inp` — ORCA input file for single-point energy calculation.
-- `output_+180°.out` — ORCA output file with SCF energy and job details.
-- `butane_scan_visualization.ipynb` — Google Colab notebook that extracts SCF energies and plots the conformational energy profile.
+---
 
-## 🔬 Method Summary
+## Scientific Background
 
-The butane molecule was built in Avogadro, with the central C–C–C–C dihedral angle explicitly defined. A set of conformers was created by varying this angle from –180° to +180°.
+Butane is a simple alkane, making it an ideal system to study dihedral rotation effects. Its conformational landscape includes:
+- **Anti conformation** (global minimum).
+- **Gauche conformations** (local minima).
+- **Eclipsed conformations** (energy maxima).
 
-Single-point energy calculations were performed using ORCA (no geometry optimization) to isolate energy changes due to torsional rotation. SCF energies were extracted using Python in Google Colab and used to plot the energy profile. Chemcraft was used to verify the dihedral configurations.
+This analysis uses quantum chemical methods to compute the **potential energy surface (PES)** by systematically rotating the dihedral angle and calculating the corresponding single-point energies.
 
-## ▶️ How to Use
+---
 
-1. Open the `butane_scan_visualization.ipynb` notebook in [Google Colab](https://colab.research.google.com/).
-2. Upload `.out` files from the dihedral scan.
-3. Run the notebook to extract angles and SCF energies.
-4. View and analyze the conformational energy plot.
+## Method Summary
 
-## 🔗 Repository Link
+- Molecule construction: Avogadro.
+- Dihedral variation: −180° to +180° in 20 steps.
+- Energy calculations: Single-point ORCA (dihedral angle fixed).
+- Energy analysis: Python scripting.
+- Visualization: Matplotlib (energy profile) and Chemcraft (structures).
 
-Part of the full project:  
-[https://github.com/HandsonGis/orca-dft-analysis](https://github.com/HandsonGis/orca-dft-analysis)
+---
+
+## Key Results
+
+- **Anti conformation (180°):** Global minimum.
+- **Gauche conformations (±60°):** Local minima.
+- **Eclipsed conformation (0°):** Energy maximum.
+
+Energy differences:
+- Anti to Gauche: ~1.28 kcal/mol.
+- Anti to Eclipsed: ~7.9 kcal/mol.
+
+These results match well-known experimental and theoretical data, validating the computational approach.
+
+---
+
+## Sample Conformer Structures
+
+**Anti Conformer (180°):**
+
+![Anti Conformer](images/anti.png)
+
+**Gauche Conformer (60°):**
+
+![Gauche Conformer](images/gauche.png)
+
+**Eclipsed Conformer (0°):**
+
+![Eclipsed Conformer](images/eclipsed.png)
+
+These images illustrate the structural differences between the key conformers.
+
+---
+
+## Energy Profile Plot
+
+The rotational energy profile clearly shows energy minima and maxima as the molecule rotates:
+
+![Butane Energy Profile](results/energy_profile.png)
+
+---
+
+## Educational Insights
+
+This project demonstrates:
+- How molecular rotation affects stability and energy.
+- Visualization of the potential energy surface (PES).
+- Use of computational chemistry and Python scripting for molecular analysis.
+- The origin of torsional strain and conformational preferences in simple hydrocarbons.
+
+---
+
+## Project Files
+
+- Input XYZ files (butane dihedral steps).
+- ORCA input/output files.
+- Python analysis scripts.
+- Generated energy profile plot.
+- Example images of conformers.
+- Optional full report (PDF).
+
+---
+
+## License
+
+MIT License — freely available for educational and research use.
