@@ -11,7 +11,7 @@ Understanding conformational energy profiles is fundamental in physical chemistr
 
 ---
 
-## Scientific Background
+## Background
 
 Butane is a simple alkane, making it an ideal system to study dihedral rotation effects. Its conformational landscape includes:
 - **Anti conformation** (global minimum).
@@ -68,11 +68,11 @@ These images illustrate the structural differences between the key conformers.
 
 The rotational energy profile clearly shows energy minima and maxima as the molecule rotates:
 
-![Butane Energy Profile](results/energy_profile.png)
+![Butane Energy Profile](butane_conformer_energy_profile.jpg)
 
 ---
 
-## Educational Insights
+## Insights
 
 This project demonstrates:
 - How molecular rotation affects stability and energy.
@@ -82,17 +82,5 @@ This project demonstrates:
 
 ---
 
-## Project Files
-
-- Input XYZ files (butane dihedral steps).
-- ORCA input/output files.
-- Python analysis scripts.
-- Generated energy profile plot.
-- Example images of conformers.
-- Optional full report (PDF).
-
----
-
-## License
-
-MIT License — freely available for educational and research use.
+##  Links
+-  **GitHub profile**: [HandsonGisubizo](https://github.com/handsongisubizo)
