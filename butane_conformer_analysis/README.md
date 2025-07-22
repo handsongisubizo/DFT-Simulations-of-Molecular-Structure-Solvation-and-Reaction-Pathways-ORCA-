@@ -68,7 +68,7 @@ These images illustrate the structural differences between the key conformers.
 
 The rotational energy profile clearly shows energy minima and maxima as the molecule rotates:
 
-![Butane Energy Profile](butane_conformer_energy_profile.jpg)
+![Butane Energy Profile](butane_conformer_energy_profile.png)
 
 ---
 
