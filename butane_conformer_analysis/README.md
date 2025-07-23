@@ -12,7 +12,7 @@ Understanding conformational energy profiles is fundamental in physical chemistr
 
 ---
 
-## Sample Conformer Structures
+## Sample Butane Conformer Structures
 
 **Anti Conformer (180°):**
 
