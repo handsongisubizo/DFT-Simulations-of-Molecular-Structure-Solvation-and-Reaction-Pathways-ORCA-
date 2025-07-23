@@ -9,6 +9,25 @@ Understanding conformational energy profiles is fundamental in physical chemistr
 - How molecules transition between conformers.
 - The concept of torsional strain and energy barriers.
 
+
+---
+
+## Sample Conformer Structures
+
+**Anti Conformer (180°):**
+
+![Anti Conformer](butane_180.jpg)
+
+**Gauche Conformer (-60°):**
+
+![Gauche Conformer](butane_60.jpg)
+
+**Eclipsed Conformer (0°):**
+
+![Eclipsed Conformer](butane_0.jpg)
+
+These images illustrate the structural differences between the key conformers.
+
 ---
 
 ## Background
@@ -43,24 +62,6 @@ Energy differences:
 - Anti to Eclipsed: ~7.9 kcal/mol.
 
 These results match well-known experimental and theoretical data, validating the computational approach.
-
----
-
-## Sample Conformer Structures
-
-**Anti Conformer (180°):**
-
-![Anti Conformer](butane_180.jpg)
-
-**Gauche Conformer (-60°):**
-
-![Gauche Conformer](butane_60.jpg)
-
-**Eclipsed Conformer (0°):**
-
-![Eclipsed Conformer](butane_0.jpg)
-
-These images illustrate the structural differences between the key conformers.
 
 ---
 
