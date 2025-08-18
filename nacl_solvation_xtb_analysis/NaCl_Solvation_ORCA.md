@@ -9,11 +9,14 @@ A **hybrid solvation** approach was used to study the progressive hydration of a
 - **Optimization:** Full geometry optimization for each *n*.  
 - **Incremental stabilization metric**
 
-  $$\Delta E_n = E\!\left(\mathrm{NaCl}\cdot n\,\mathrm{H_2O}\right) - E\!\left(\mathrm{NaCl}\cdot (n-1)\,\mathrm{H_2O}\right) - E\!\left(\mathrm{H_2O}\right).$$
+  $$\Delta E_n = E(\mathrm{NaCl}\cdot n\,\mathrm{H_2O})
+  - E(\mathrm{NaCl}\cdot (n-1)\,\mathrm{H_2O})
+  - E(\mathrm{H_2O}).$$
 
-  Negative $\Delta E_n$ indicates additional stabilization from adding one more water molecule.
+  Negative $\Delta E_n$ means the added water further stabilizes the complex.
 
-- **Analysis:** Extract $\Delta E_n$ and plot vs. iteration ($n$) to reveal stabilization trends and hydration-shell completion.
+- **Analysis:** Extract $\Delta E_n$ and plot it vs. $n$ to reveal stabilization trends and hydration-shell completion.
+
 
 
 ## Results — Stabilization Behavior During NaCl Solvation
