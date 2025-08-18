@@ -22,15 +22,24 @@ A **hybrid solvation** approach was used to study the progressive hydration of a
 
 > 
 ![NaCl Hydration Snapshots (n = 1, 15, 30, 41)](nacl_hydration_snapshots.png)
+>
+> *Figure.* Snapshots ($n = 1, 15, 30, 41$). Panels show how solvation builds around the ion pair (Na⁺ = green, Cl⁻ = magenta; dotted lines = H-bonds).
+
+- **n = 1:** Bare ion pair with a single water—no network yet.  
+- **n ≈ 15:** First hydration shell largely formed: water oxygens point toward Na⁺; hydrogens toward Cl⁻; several bridging waters connect the ions.  
+- **n ≈ 30:** Second shell growing; more continuous H-bond network; interior appears saturated.  
+- **n ≈ 41:** Compact, quasi-spherical two-shell cluster; added waters mainly reinforce the outer network, so incremental stabilization diminishes (small $\Delta E_n$).
+
 
 ![Total Energy vs Iteration (Hartree)](total_energy_vs_iteration.png)
+
+> 
+![Energy Change vs Iteration](nacl_solvation_stabilization.png)
 
 The incremental interaction energy **(\(\Delta E\))** was monitored as water molecules were sequentially added to the NaCl ion pair. The profile shows an **overall trend toward stabilization**, with the **largest energy drop** occurring after the **second water molecule**, suggesting strong initial ion–solvent interactions. As additional water molecules are added, the **energy changes fluctuate around zero**, indicating **reduced incremental stabilization** and the **progressive saturation of the first hydration shell**.
 
 > *Figure.* Incremental stabilization energy, $\Delta E_n$ (kcal·mol$^{-1}$), per added water molecule during NaCl hydration. The dashed line at $\Delta E_n = 0$ marks the no-stabilization baseline. *(Replace the placeholder below with your plot path.)*
 > 
-![Energy Change vs Iteration](nacl_solvation_stabilization.png)
-
 ## Conclusion
 
 - The NaCl ion pair stabilizes rapidly with the **first few waters**, dominated by strong ion–dipole interactions.  
