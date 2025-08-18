@@ -20,11 +20,11 @@ The incremental interaction energy **(\(\Delta E\))** was monitored as water mol
 
 > **Figure.** Energy change (\(\Delta E\), *kcal·mol⁻¹*) per added water molecule during NaCl solvation. The dashed line at **\(\Delta E = 0\)** marks the stabilization baseline. *(Replace the placeholder below with your plot path.)*
 > 
-![NaCl Hydration Snapshots (n = 1, 15, 30, 41)](figs/nacl_hydration_snapshots.png)
+![NaCl Hydration Snapshots (n = 1, 15, 30, 41)](nacl_hydration_snapshots.png)
 
-![Total Energy vs Iteration (Hartree)](figs/total_energy_vs_iteration.png)
+![Total Energy vs Iteration (Hartree)](total_energy_vs_iteration.png)
 
-![Energy Change vs Iteration](figs/nacl_solvation_stabilization.png)
+![Energy Change vs Iteration](nacl_solvation_stabilization.png)
 
 ## Conclusion
 
