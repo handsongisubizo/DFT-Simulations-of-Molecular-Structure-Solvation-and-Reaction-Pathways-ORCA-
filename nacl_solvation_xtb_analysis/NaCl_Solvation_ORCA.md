@@ -7,12 +7,14 @@ A **hybrid solvation** approach was used to study the progressive hydration of a
 - **System sizes:** NaCl solvated by *n* water molecules, with *n* = 1…41.  
 - **Level of theory:** xTB (GFN2‑xTB) in ORCA; implicit solvent **ALPB (water)**.  
 - **Optimization:** Full geometry optimization for each *n*.  
-- **Incremental stabilization metric:**  
-  \[
-  \Delta E_n = E\big(\mathrm{NaCl}\cdot n\,\mathrm{H_2O}\big) - E\big(\mathrm{NaCl}\cdot (n-1)\,\mathrm{H_2O}\big) - E(\mathrm{H_2O}).
-  \]
-  Negative \(\Delta E_n\) indicates additional stabilization upon adding one more water molecule.
-- **Analysis:** Extract \(\Delta E_n\) and plot vs. iteration (*n*) to reveal stabilization trends and hydration‑shell completion.
+- **Incremental stabilization metric**
+
+  $$\Delta E_n = E\!\left(\mathrm{NaCl}\cdot n\,\mathrm{H_2O}\right) - E\!\left(\mathrm{NaCl}\cdot (n-1)\,\mathrm{H_2O}\right) - E\!\left(\mathrm{H_2O}\right).$$
+
+  Negative $\Delta E_n$ indicates additional stabilization from adding one more water molecule.
+
+- **Analysis:** Extract $\Delta E_n$ and plot vs. iteration ($n$) to reveal stabilization trends and hydration-shell completion.
+
 
 ## Results — Stabilization Behavior During NaCl Solvation
 
