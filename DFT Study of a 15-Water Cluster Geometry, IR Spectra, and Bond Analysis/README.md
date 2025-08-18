@@ -1,68 +1,93 @@
-# (H₂O)₁₅ — DFT Geometry Optimization & Vibrational Analysis
+# Water Cluster (H₂O)₁₅: Geometry Optimization and Frequency Analysis
 
-DFT study of a 15-molecule water cluster using **ORCA 6.0.0**: geometry optimization, harmonic frequency analysis, and quick visualizations.
+This repository contains **DFT calculations** of a 15-molecule water cluster performed using [**ORCA** 6.0.0](https://www.faccts.de/orca-6-release/)
+ The project includes geometry optimization, harmonic vibrational frequency analysis, and visualization of molecular structure and energetics.
 
-[![Watch the optimization](http://img.youtube.com/vi/hJ1o1aLP7s4/0.jpg)](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
+ ## **Watch the full optimization steps here**:
 
----
+[![Watch the video](http://img.youtube.com/vi/hJ1o1aLP7s4/0.jpg)](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
 
-## Files
-
-| File | What it is |
-|---|---|
-| `opt_15h2o.inp` | ORCA input (geometry optimization) |
-| `opt_15h2o.out` | ORCA output (optimization) |
-| `freq_15h2o.inp` | ORCA input (frequency analysis) |
-| `freq_15h2o.out` | ORCA output (frequencies) |
-| `15h2o_final.xyz` | Optimized structure (XYZ) |
-| `gibbs_energy_15h2o.png` | Energy vs. optimization step |
-| `15h2o_cluster_optimized.jpg` | Final cluster snapshot |
-| `ir_spectrum_15h2o_annotated.png` | Simulated IR with key peaks |
-| `bond_stats_15h2o.png` | O–H and H–O–H distributions |
-
-> **Note:** Large `.out` files may not preview on GitHub. Click **“View raw”** to download.
 
 ---
 
-## Methods (Quick)
+###  Files Included
 
-- **Code:** ORCA 6.0.0  
-- **Functional:** B3LYP-D4  
-- **Basis:** def2-TZVP  
-- **SCF:** `VeryTightSCF`  
-- **Phase:** Gas  
-- **Parallel:** 8 cores, ~9 GB RAM  
+| File | Description |
+|------|-------------|
+| [opt_15h2o.inp](./opt_15h2o.inp) | ORCA input for geometry optimization |
+| [opt_15h2o.out](./opt_15h2o.out) | Output file from optimization |
+| [freq_15h2o.inp](./freq_15h2o.inp) | ORCA input for frequency analysis |
+| [freq_15h2o.out](./freq_15h2o.out) | Frequency analysis output |
+| [15h2o_final.xyz](./15h2o_final.xyz) | Optimized structure (XYZ format) |
+| [gibbs_energy_15h2o.png](./gibbs_energy_15h2o.png) | Plot of SCF energy vs optimization steps |
+| [15h2o_cluster_optimized.jpg](./15h2o_cluster_optimized.jpg) | Visualization of final water cluster |
+| [ir_spectrum_15h2o_annotated.png](./ir_spectrum_15h2o_annotated.png) | Annotated IR spectrum (key peaks labeled) |
+| [bond_stats_15h2o.png](./bond_stats_15h2o.png) | Histograms of bond lengths and angles |
+
+>  **Note about large output files:**  
+Some ORCA output files (like `opt_15h2o.out`) are too large to preview directly on GitHub.  
+To view or download them, simply click **"View raw"** at the top of the file page.
 
 ---
 
-## Results
+##  Method Summary
 
-**Convergence:** Optimization reached a minimum; all vibrational frequencies are real.  
-![Energy vs Steps](gibbs_energy_15h2o.png)
+- **Software**: ORCA 6.0.0  
+- **Functional**: B3LYP-D4  
+- **Basis Set**: def2-TZVP  
+- **SCF Settings**: `VeryTightSCF`  
+- **Phase**: Gas  
+- **Parallelization**: 8 cores, 9000 MB RAM  
 
-**Structure:** Compact 3D H-bond network.  
-![Optimized Cluster](15h2o_cluster_optimized.jpg)
+---
 
-**IR (simulated):**
-- Libration: **200–1000 cm⁻¹**  
-- H–O–H bend: **~1600 cm⁻¹**  
-- O–H stretch: **3200–3700 cm⁻¹**  
+##  Energy Convergence
+
+Optimization converged smoothly to a minimum, as shown in the SCF energy plot:
+
+![Energy Plot](opt_energy_15h2o.png)
+
+---
+
+##  Final Structure
+
+The optimized geometry forms a 3D hydrogen-bonded network:
+
+![Structure](15h2o_cluster_optimized.jpg)
+
+---
+
+##  IR Spectrum
+
+The simulated IR spectrum reveals expected vibrational features:
+
+- **Libration**: 200–1000 cm⁻¹  
+- **H–O–H Bending**: ~1600 cm⁻¹  
+- **O–H Stretching**: 3200–3700 cm⁻¹  
+
 ![IR Spectrum](ir_spectrum_15h2o_annotated.png)
 
-**Bond statistics:**
+---
 
-| Metric | Average | Experimental Range |
-|---|---:|---:|
-| O–H (Å) | ~0.98 | 0.97–0.99 |
-| H–O–H (°) | ~105.3 | 104.5–106 |
+##  Bond Length & Angle Analysis
+
+| Metric        | Average       | Experimental Range |
+|---------------|---------------|---------------------|
+| O–H Length    | ~0.98 Å       | 0.97–0.99 Å         |
+| H–O–H Angle   | ~105.3°       | 104.5–106°          |
 
 ![Bond Stats](bond_stats_15h2o.png)
 
 ---
 
-## Reproduce (optional)
+##  Highlights
 
-Run locally with ORCA:
-```bash
-orca opt_15h2o.inp > opt_15h2o.out
-orca freq_15h2o.inp > freq_15h2o.out
+- All vibrational frequencies are real (→ local minimum)  
+- Geometry is physically meaningful and chemically sound  
+- Bond statistics align well with experimental water cluster data  
+- Visualization and analysis performed using Chemcraft + Python  
+
+---
+
+##  Links
+-  **GitHub profile**: [HandsonGisubizo](https://github.com/handsongisubizo) please make give me my markdown withgout changing anything at all for my github
