@@ -1,3 +1,16 @@
+### Why this study?
+
+How does stabilization build as you surround an NaCl ion pair with more water?  
+By adding water molecules one at a time (n = 1 → 41) and optimizing each structure, I track the **incremental stabilization energy** ($\Delta E_n$) and watch the **H-bond network** grow. 
+
+**Goal:** identify when hydration shells are essentially complete—i.e., when adding more water gives little extra stabilization ($\Delta E_n \to 0$).
+
+**What you’ll see**
+- **Snapshots (n = 1, 15, 30, 41):** first shell formation → second shell growth → compact two-shell cluster.
+- **Total energy vs. iteration:** linear, sanity check for consistent optimizations.  
+- **Incremental energy ($\Delta E_n$) vs. n:** big early drops, then tapering toward zero.  
+
+
 ## Solvation of NaCl with Water Molecules (ORCA + xTB + ALPB)
 
 A **hybrid solvation** approach was used to study the progressive hydration of a neutral **NaCl ion pair**. The system was solvated with **1–41 explicitly placed water molecules**, and each configuration was **geometry‑optimized**. To capture long‑range bulk effects, the **ALPB (Analytical Linearized Poisson–Boltzmann)** implicit solvent model for water was applied **alongside the explicit molecules**. Calculations were performed in **ORCA** using the **xTB (GFN2‑xTB)** semiempirical Hamiltonian, which balances computational efficiency and accuracy for larger molecular systems. The number of explicit solvent molecules was controlled via the **%solvator** block in ORCA. Post‑processing and visualization were done in **Python** (Google Colab).
