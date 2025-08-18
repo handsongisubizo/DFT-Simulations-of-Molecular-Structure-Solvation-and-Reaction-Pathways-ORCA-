@@ -6,7 +6,7 @@
   </a>
 </p>
 
- ## **Watch the stabilization build as water surrounds an NaCl ion pair steps here**:
+ ## **Watch stabilization grow (NaCl + H₂O) steps here**:
 
 [![Watch the video](https://img.youtube.com/vi/_lEphD5_RmY/hqdefault.jpg)](https://www.youtube.com/watch?v=_lEphD5_RmY "Watch on YouTube")
 
