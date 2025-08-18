@@ -19,6 +19,7 @@ A **hybrid solvation** approach was used to study the progressive hydration of a
 The incremental interaction energy **(\(\Delta E\))** was monitored as water molecules were sequentially added to the NaCl ion pair. The profile shows an **overall trend toward stabilization**, with the **largest energy drop** occurring after the **second water molecule**, suggesting strong initial ion–solvent interactions. As additional water molecules are added, the **energy changes fluctuate around zero**, indicating **reduced incremental stabilization** and the **progressive saturation of the first hydration shell**.
 
 > **Figure.** Energy change (\(\Delta E\), *kcal·mol⁻¹*) per added water molecule during NaCl solvation. The dashed line at **\(\Delta E = 0\)** marks the stabilization baseline. *(Replace the placeholder below with your plot path.)*
+> 
 ![NaCl Hydration Snapshots (n = 1, 15, 30, 41)](figs/nacl_hydration_snapshots.png)
 
 ![Total Energy vs Iteration (Hartree)](figs/total_energy_vs_iteration.png)
