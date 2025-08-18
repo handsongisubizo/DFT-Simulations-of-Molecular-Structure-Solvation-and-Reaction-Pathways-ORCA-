@@ -60,15 +60,6 @@ The incremental interaction energy **(\(\Delta E\))** was monitored as water mol
 - Beyond the initial additions, **\(\Delta E\)** fluctuates near zero, consistent with **hydration‑shell completion** and the onset of **bulk‑like behavior**.  
 - This **hybrid explicit–implicit** protocol (xTB + ALPB in ORCA) provides a **computationally efficient** pathway to map solvation growth while retaining key physical trends.
 
-## Reproducibility Notes
 
-- **Code/Environment:** ORCA for electronic structure; Python (Google Colab) for parsing and plotting.  
-- **Suggested repo layout:**
-  ```text
-  nacl_solvation/
-  ├─ data/                      # ORCA outputs by n (1…41)
-  ├─ scripts/                   # parsing + plotting notebooks
-  ├─ figs/
-  │  └─ nacl_solvation_stabilization.png
-  └─ README.md
-  ```
+##  Links
+-  **GitHub profile**: [HandsonGisubizo](https://github.com/handsongisubizo) please make give me my markdown withgout changing anything at all for my github
