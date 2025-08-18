@@ -1,18 +1,10 @@
-## Why this study
-
-**Question.** How does stabilization build as water surrounds an NaCl ion pair—and when are hydration shells essentially complete?
-
-**Approach (n = 1 → 41).** Add one H₂O at a time, optimize each structure (ORCA; GFN2-xTB + ALPB), and compute the incremental stabilization  
-$\Delta E_n = E(\mathrm{NaCl}\cdot n\,\mathrm{H_2O}) - E(\mathrm{NaCl}\cdot (n-1)\,\mathrm{H_2O}) - E(\mathrm{H_2O}).$
-
-**Why xTB + ALPB?** Explicit waters capture local ion–water structure; ALPB adds long-range screening. This combo is fast enough to scan many sizes while retaining chemically sensible trends.
-
-**What to look for**
-- **Snapshots (n = 1, 15, 30, 41):** first shell → second shell → compact two-shell cluster.  
-- **Total energy $E(n)$ vs. $n$:** near-linear decline (extensivity); sanity check for consistent optimizations.  
-- **Incremental energy $\Delta E_n$ vs. $n$:** large early drops, then tapering toward 0 → hydration-shell completion.
-
-**Outcome.** When $\Delta E_n$ fluctuates near zero, adding more water gives little extra stabilization—indicating a bulk-like environment around the ion pair.
+<h2>Why this study</h2>
+<p><strong>Question.</strong> How does stabilization build as water surrounds an NaCl ion pair—and when are hydration shells essentially complete?</p>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID" title="Watch on YouTube">
+    <img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" alt="Solvation of NaCl in Water – demo">
+  </a>
+</p>
 
 
 
