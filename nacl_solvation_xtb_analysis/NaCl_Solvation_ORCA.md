@@ -1,10 +1,5 @@
 <h2>Why this study</h2>
 <p><strong>Question.</strong> How does stabilization build as water surrounds an NaCl ion pair—and when are hydration shells essentially complete?</p>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID" title="Watch on YouTube">
-    <img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" alt="Solvation of NaCl in Water – demo">
-  </a>
-</p>
 
  ## **Watch stabilization grow (NaCl + H₂O) steps here**:
 
