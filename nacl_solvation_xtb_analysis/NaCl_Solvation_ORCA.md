@@ -8,7 +8,7 @@
 
  ## **Watch the stabilization build as water surrounds an NaCl ion pair steps here**:
 
-[![Watch the video](http://img.youtube.com/vi/hJ1o1aLP7s4/0.jpg)](https://www.youtube.com/watch?v=hJ1o1aLP7s4)
+[![Watch the video](https://img.youtube.com/vi/_lEphD5_RmY/hqdefault.jpg)](https://www.youtube.com/watch?v=_lEphD5_RmY "Watch on YouTube")
 
 
 ## Solvation of NaCl with Water Molecules (ORCA + xTB + ALPB)
