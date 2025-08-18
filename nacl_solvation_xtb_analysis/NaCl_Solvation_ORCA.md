@@ -33,10 +33,8 @@ A **hybrid solvation** approach was used to study the progressive hydration of a
 
 ![Total Energy vs Iteration (Hartree)](total_energy_vs_iteration.png)
 
-**What this plot shows**
-
-- The curve decreases almost perfectly linearly as $n$ increases.
-- Total electronic energy is **extensive**: each added H$_2$O contributes its own internal energy plus a similar interaction term once the environment becomes water-like.
+The curve goes down (more negative) almost perfectly in a straight line.
+which means each extra water contributes about the same amount of energy: its own internal energy plus a similar interaction with the rest.
 
 > 
 ![Energy Change vs Iteration](nacl_solvation_stabilization.png)
