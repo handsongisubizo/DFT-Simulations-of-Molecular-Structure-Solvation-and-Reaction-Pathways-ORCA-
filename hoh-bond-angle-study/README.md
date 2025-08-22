@@ -156,5 +156,4 @@ This confirms the quality of your DFT results and validating methods used.
 
 ## Author
 
-Created by: **Handson Gisubizo**  
- GitHub: [https://github.com/handsongisubizo](https://github.com/handsongisubizo)
+Created by [Handson Gisubizo](https://github.com/handsongisubizo)  
