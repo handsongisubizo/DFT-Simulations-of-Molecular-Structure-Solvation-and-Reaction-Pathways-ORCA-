@@ -87,6 +87,5 @@ Final Lennard-Jones Parameters:
 
 ---
 
-Created by: Handson Gisubizo
-GitHub: https://github.com/handsongisubizo
+Created by [Handson Gisubizo](https://github.com/handsongisubizo)  
 
