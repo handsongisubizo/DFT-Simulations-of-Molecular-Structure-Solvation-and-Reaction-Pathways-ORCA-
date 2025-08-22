@@ -2,9 +2,9 @@
 
 Chemical reactions don’t jump from “before” to “after” in one step—they travel along an **energy landscape**. The highest point on that path is the **transition state (TS)**, the moment an old bond is breaking as a new one forms. Identifying the TS gives the **activation barrier** and lets us estimate how fast the reaction runs at room temperature.
 
- ## **NEB–TS demo: CH₃OH + HCl → CH₃Cl + H₂O. Click to watch**
+ ## **Watch the video: CH₃OH + HCl → CH₃Cl + H₂O.**
 
-[![Watch the video](https://img.youtube.com/vi/_lEphD5_RmY/hqdefault.jpg)](https://www.youtube.com/watch?v=_lEphD5_RmY "Watch on YouTube")
+[![Watch the video](https://img.youtube.com/vi/abYSfFxad-Q/hqdefault.jpg)](https://www.youtube.com/watch?v=abYSfFxad-Q "Watch on YouTube")
 
 *This NEB clip shows the minimum-energy path; the maximum is the transition state.*
 
