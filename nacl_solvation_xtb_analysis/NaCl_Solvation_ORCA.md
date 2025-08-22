@@ -1,7 +1,7 @@
 <h2>Why this study</h2>
 <p><strong>Question.</strong> How does stabilization build as water surrounds an NaCl ion pair—and when are hydration shells essentially complete?</p>
 
- ## **NEB–TS demo (20 s): CH₃OH + HCl → CH₃Cl + H₂O. Click to watch**
+ ## **Watch the short video: stabilization grows as waters surround NaCl.**
 
 [![Watch the video](https://img.youtube.com/vi/_lEphD5_RmY/hqdefault.jpg)](https://www.youtube.com/watch?v=_lEphD5_RmY "Watch on YouTube")
 
