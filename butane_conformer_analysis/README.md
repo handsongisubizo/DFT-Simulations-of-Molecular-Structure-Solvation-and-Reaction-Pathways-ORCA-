@@ -26,7 +26,7 @@ Understanding conformational energy profiles is fundamental in physical chemistr
 
 ![Eclipsed Conformer](butane_0.jpg)
 
-These images illustrate the structural differences between the key conformers.
+*These images illustrate the structural differences between the key conformers.*
 
 ---
 
