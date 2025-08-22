@@ -90,4 +90,4 @@ The simulated IR spectrum reveals expected vibrational features:
 ---
 
 ##  Links
--  **GitHub profile**: [HandsonGisubizo](https://github.com/handsongisubizo) please make give me my markdown withgout changing anything at all for my github
+-  **GitHub profile**: [HandsonGisubizo](https://github.com/handsongisubizo) 
